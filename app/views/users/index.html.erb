@@ -1,34 +1,73 @@
-link_to(body, url, html_options = {})
 
 <h1>Link Pasien</h1>
-
-<h2>FAGERSTROM QUESTIONNAIRE http://ow.ly/aF2hS</h2>
-
 
 
 <table>
   <tr>
-    <th>Name</th>
-    <th>Email</th>
-    <th></th>
-    <th></th>
-    <th></th>
+    <b>FAGERSTROM QUESTIONNAIRE</b>
+  </tr>
+  <tr>
+    <th>
+      <a href ="http://ow.ly/aF2hS"><span></span>Form</a> 
+    </th>
+    <th> | </th>
+    <th>
+      <a href ="http://ow.ly/aF2lT"><span></span>Result</a> 
+    </th>    
+  </tr>
+  
+  <tr>
   </tr>
 
-<% @users.each do |user| %>
   <tr>
-    <td><%= user.name %></td>
-    <td><%= user.email %></td>
-    <td><%= link_to 'Show', user %></td>
-    <td><%= link_to 'Edit', edit_user_path(user) %></td>
-    <td><%= link_to 'Destroy', user, confirm: 'Are you sure?', method: :delete %></td>
+    <b>PATIENT QUESTIONNAIRE</b>
   </tr>
+  <tr>
+    <th>
+      <a href ="http://ow.ly/aF2rz"><span></span>Form</a> 
+    </th>
+    <th> | </th>
+    <th>
+      <a href ="http://ow.ly/aF2uh"><span></span>Result</a> 
+    </th>    
+  </tr>
+
+  <tr>
+  </tr>
+
+<tr>
+    <b>MEDICAL RECORD</b>
+  </tr>
+  <tr>
+    <th>
+      <a href ="http://ow.ly/aF2zr"><span></span>Form</a> 
+    </th>
+    <th> | </th>
+    <th>
+      <a href ="http://ow.ly/aF2Fe"><span></span>Result</a> 
+    </th>    
+  </tr>
+
+  <tr>
+  </tr>
+
+<tr>
+    <b>TREATMENT PLAN</b>
+  </tr>
+  <tr>
+    <th>
+      <a href ="http://ow.ly/aF2Jr"><span></span>Form</a> 
+    </th>
+    <th> | </th>
+    <th>
+      <a href ="http://ow.ly/aF2Ng"><span></span>Result</a> 
+    </th>    
+  </tr>
+
+
 <% end %>
 </table>
 
-<li><a href ="http://ow.ly/aF2hS"><span></span>Home</a> </li>
-
-<br />
 
 
 
